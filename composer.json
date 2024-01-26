@@ -1,0 +1,25 @@
+{
+  "name": "danielescillia/kata-skeleton-php",
+  "description": "Kata skeleton in PHP",
+  "type": "project",
+  "minimum-stability": "dev",
+  "require-dev": {
+    "php": ">8.2",
+    "phpunit/phpunit": "^8.5"
+  },
+  "authors": [
+    {
+      "name": "daniele.scillia",
+      "email": "daniele.scillia@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": [
+        "./src",
+        "./tests"
+      ]
+    }
+  },
+  "require": {}
+}
