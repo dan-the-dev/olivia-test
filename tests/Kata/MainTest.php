@@ -16,11 +16,9 @@ class MainTest extends TestCase
 
     public function testShallPass(): void
     {
-        $this->assertEquals(1, 1);
+        $actual = $this->main->handle([10, 1, 2, 3, 2]);
+
+        $this->assertEquals([1, 2, 2, 3, 10], $actual);
     }
 
-    public function testHandleReturnTrue(): void
-    {
-        $this->assertEquals(true, $this->main->handle());
-    }
 }

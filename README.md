@@ -12,3 +12,17 @@ After dependencies are installed, you can run tests via `make test`.
 
 From now on, you can start with the Kata. 
 I suggest you refactor names at first: for example, for `FizzBuzz` kata, I renamed the classes to `FizzBuzz` and `FizzBuzzTest`.
+
+
+# TODO
+
+Algoritmo di ordinamento counting sort.
+
+- Array con elementi finiti interi 
+
+Esempi: 10, 1, 2, 3, 2 -> 1, 2, 2, 3, 10
+
+Max: 10
+Min: 1
+
+- 
